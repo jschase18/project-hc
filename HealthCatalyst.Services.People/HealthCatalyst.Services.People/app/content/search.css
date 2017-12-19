@@ -1,0 +1,98 @@
+﻿/*
+    Classes
+*/
+.view-section {
+    background-color: #ffc964;
+    border: 2px solid #161f29;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+    .view-section label,
+    .view-section span {
+        padding-left: 20px;
+    }
+
+.view-section-header {
+    background-color: #161f29;
+    border-bottom: 2px solid #161f29;
+    color: #fffabd;
+    font-style: italic;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.img-centered {
+    text-align: center;
+}
+
+/*
+    IDs
+*/
+#search-view {
+    margin-top: 4px;
+}
+
+#table-search-results {
+    border: 2px solid #161f29;
+    border-collapse: collapse;
+    color: #26303a;
+    margin: 12px 6px;
+}
+
+    #table-search-results th {
+        background-color: #161f29;
+        border: 2px solid #161f29;
+        color: #fffabd;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 6px 40px;
+    }
+
+    #table-search-results tr, 
+    #table-search-results td {
+        background-color: #ffc964;
+        border: 2px solid #161f29;
+        padding: 10px 6px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+#table-interests-view {
+    border: none;
+}
+
+    #table-interests-view tr {
+        border: none;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    #table-interests-view td {
+        border: none;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+
+#loading-message {
+    font-weight: bold;
+    font-style: italic;
+}
+
+    #loading-message.loading {
+        visibility: visible;
+    }
+
+    #loading-message.not-loading {
+        visibility: hidden;
+    }

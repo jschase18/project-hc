@@ -1,0 +1,103 @@
+﻿<div id="person-detail-edit" class="">
+    <a href="/#/search">Back to Search</a>
+
+    <div id="general-section-edit" class="edit-section">
+        <h2 class="edit-section-header">General</h2>
+        <input type="hidden" id="person-id-edit" />
+
+        <div>
+            <label>First Name</label>
+            <input type="text" id="text-first-name" />
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" id="text-last-name" />
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="text" id="text-age" />
+        </div>
+        <div>
+            <label>Profile Picture URL</label>
+            <input type="text" id="text-profile-picture-url" />
+        </div>
+        <div class="error-message">
+            <span id="error-message-general"></span>
+        </div>
+        <div class="save-button">
+            <span id="span-success-general" class="success"></span>
+            <button id="btn-save-general" onclick="saveGeneralInformation()">Save</button>
+        </div>
+    </div>
+
+    <div id="contact-information-section-edit" class="edit-section">
+        <h2 class="edit-section-header">Contact Information</h2>
+
+        <div>
+            <label>Phone</label>
+            <input type="hidden" id="phone-id-edit" />
+            <input type="text" id="text-phone" />
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="hidden" id="email-id-edit" />
+            <input type="text" id="text-email" />
+        </div>
+        <div class="error-message">
+            <span id="error-message-contact-information" class="error-message"></span>
+        </div>
+        <div class="save-button">
+            <span id="span-success-contact-information" class="success"></span>
+            <button id="btn-save-contact-information" onclick="saveContactInformation()">Save</button>
+        </div>
+    </div>
+
+    <div class="edit-section">
+        <h2 class="edit-section-header">Address</h2>
+
+        <div>
+            <label>Address 1</label>
+            <input type="hidden" id="address-id-edit" />
+            <input type="text" id="text-address-one" />
+        </div>
+        <div>
+            <label>Address 2</label>
+            <input type="text" id="text-address-two" />
+        </div>
+        <div>
+            <label>City</label>
+            <input type="text" id="text-city" />
+        </div>
+        <div>
+            <label>State</label>
+            <input type="hidden" id="selected-state-id" />
+            <select id="select-states"></select>
+        </div>
+        <div>
+            <label>Postal Code</label>
+            <input type="text" id="text-postal-code" />
+        </div>
+        <div class="error-message">
+            <span id="error-message-address" class="error-message"></span>
+        </div>
+        <div class="save-button">
+            <span id="span-success-address" class="success"></span>
+            <button id="btn-save-address" onclick="saveAddress()">Save</button>
+        </div>
+    </div>
+
+    <div class="edit-section">
+        <h2 class="edit-section-header">Interests</h2>
+
+        <div>
+            <table id="table-interests-edit"></table>
+        </div>
+        <div class="error-message">
+            <span id="error-message-interest" class="error-message"></span>
+        </div>
+        <div class="save-button">
+            <span id="span-success-interest" class="success"></span>
+            <button id="btn-add-new-interest" onclick="addNewInterest()">Add Interest</button>
+        </div>
+    </div>
+</div>

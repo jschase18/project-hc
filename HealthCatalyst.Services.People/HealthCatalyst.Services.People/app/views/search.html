@@ -1,0 +1,81 @@
+﻿<div id="search-view">
+    <div>
+        <input type="text" id="text-search" />
+        <button id="btn-search" onclick="searchClick()">Search</button>
+        <span id="loading-message" class="not-loading">
+            LOADING ...
+        </span>
+    </div>
+    <div class="row">
+
+        <div>
+            <a href="/#/edit/0">Add New Person...</a>
+        </div>
+
+        <div class="column">
+            <table id="table-search-results">
+                <tr>
+                    <th></th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="detail-view" class="column">
+            <div id="person-detail-view" class="">
+
+                <div class="view-section">
+                    <h2 class="view-section-header">General</h2>
+                    <div class="img-centered">
+                        <img id="img-profile" />
+                    </div>
+                    <div>
+                        <input type="hidden" id="person-id" />
+                        <label>Name: </label>
+                        <span id="span-name" />
+                    </div>
+                    <div>
+                        <label>Age: </label>
+                        <span id="span-age" />
+                    </div>
+                </div>
+
+                <div class="view-section">
+                    <h2 class="view-section-header">Contact Information</h2>
+                    <div>
+                        <label>Phone: </label>
+                        <span id="span-phone" />
+                    </div>
+                    <div>
+                        <label>Email: </label>
+                        <span id="span-email" />
+                    </div>
+                </div>
+
+                <div class="view-section">
+                    <h2 class="view-section-header">Address</h2>
+                    <div>
+                        <span id="span-address-one" />
+                    </div>
+                    <div>
+                        <span id="span-address-two" />
+                    </div>
+                    <div>
+                        <span id="span-city" />
+                        <input type="hidden" id="state-id" />
+                        <span id="span-state" />
+                        <span id="span-postal-code" />
+                    </div>
+                </div>
+
+                <div class="view-section">
+                    <h2 class="view-section-header">Interests</h2>
+                    <table id="table-interests-view"></table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

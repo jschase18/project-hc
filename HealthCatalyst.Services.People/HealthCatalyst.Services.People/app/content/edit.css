@@ -1,0 +1,48 @@
+﻿/*
+    Classes
+*/
+.edit-section {
+    background-color: #ffc964;
+    border: 2px solid #161f29;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 25px;
+}
+
+    .edit-section label {
+        display: inline-block;
+        width: 160px;
+    }
+
+.edit-section-header {
+    background-color: #161f29;
+    border-bottom: 2px solid #161f29;
+    color: #fffabd;
+    font-style: italic;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.save-button {
+    text-align: right;
+}
+
+/*
+    IDs
+*/
+#table-interests-edit {
+    border: none;
+}
+
+    #table-interests-edit tr,
+    #table-interests-edit td {
+        border: none;
+        padding: 0px 0px;
+    }
